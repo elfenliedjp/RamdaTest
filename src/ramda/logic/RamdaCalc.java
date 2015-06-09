@@ -25,7 +25,7 @@ public class RamdaCalc {
 		// ラムダ式は使えない。
 		Ramda ram = (int x) -> {return this.num + x;};
 		
-		// 
+		// 定義したsetNumber(int)を実際に使っているところ
 		System.out.println(ram.setNumber(1000));
 	}
 }
